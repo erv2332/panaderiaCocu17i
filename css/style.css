@@ -1,0 +1,16 @@
+
+.opacidad:hover{
+    filter: opacity(70%);
+}
+
+
+@media all and (max-width: 576px){
+    .slider-responsive{
+    height: 250px;
+    object-fit: cover;
+    }
+
+    .centrar{
+        text-align: center;
+    }
+}
